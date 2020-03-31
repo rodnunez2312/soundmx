@@ -1,0 +1,241 @@
+/* Diseño: Rodrigo Sanchez*/
+#banner {
+    position: relative;
+    transform: translate(-50%, 0%);
+    top: 600%;
+    left: 50%;
+    width: 1140px;
+    border-style: outset;
+    border-width: medium;
+    margin: 0;
+    text-align: center;
+    line-height: .3;
+}
+
+body
+{
+	font-size: 18px;
+    color: #333333;
+    font-family: 'Georgia', serif;
+    margin: 0px;
+	background-color: rgba(73, 242, 255, 0.26);
+}
+
+#barra_principal
+{
+	position: relative;
+	display: block;
+	width: 1140px;
+    background:linear-gradient(to right, #A006EE,#CD9BE7,#0FF470);
+	margin: 0 auto;
+}
+
+nav
+{
+	position: relative;
+	display: block;
+    background:linear-gradient(to right, #3878E8,#32A4DF,#00DFE9);
+	height: 69px;
+}
+
+nav a
+{
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 16px;
+}
+
+nav a:hover
+{
+	color: #fff;
+	background-color: #1d59ba;
+}
+
+#imagen_index
+{
+    display: flex;
+	min-height: 100px;
+    overflow: auto;
+    justify-content: center;
+}
+
+#imagen_index > span
+{
+	position: absolute;
+	display: block;
+	background-color: rgba(64,64,65, 0.6);
+	color: #fff;
+	font-size: 42px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 20px 15px 15px 510px;
+}
+
+header, footer, pie #contenido
+{
+	position: relative;
+	display: block;
+}
+
+#contenido
+{
+	overflow: auto;
+}
+
+header
+{
+	background-color: #ccc;
+}
+
+.columna_index
+{
+	position: relative;
+	display: block;
+	float: left;
+	width: 50%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.columna_index h1,
+.columna_index h2
+{
+	position: relative;
+	display: block;
+	margin: 0 0 5px;
+	font-weight: normal;
+}
+
+.columna_index h1
+{
+	font-size: 36px;
+}
+
+.columna_index h2
+{
+	font-size: 18px;
+	font-weight: bold
+}
+
+.columna_index h3
+{
+	font-style: italic;
+	font-size: 24px;
+}
+
+.columna_index p
+{
+	margin: 0 0 25px;
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
+.columna_index *
+{
+    text-align:center;
+	margin-top: 2%;
+	width:80%;
+	margin-left:5%;
+	float:left;
+}
+
+footer
+{
+	height: 33px;
+	background-color: #61ccd4;
+}
+
+footer h4
+{
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	background-color: #404041;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 8px 35px 9px;
+	margin: 0;
+}
+
+footer span
+{
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	padding-left: 60px;
+}
+
+footer span a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer span a:hover
+{
+	text-decoration: underline;
+}
+
+footer div
+{
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 0;
+	height: 33px;
+	background-color: #404041;
+	padding: 0 10px;
+}
+
+footer div a
+{
+	position: relative;
+	display: inline-block;
+	width: 33px;
+	height: 33px;
+	text-indent: 100px;
+	overflow: hidden;
+	background-image: url(../Imagenes_soundmx/iconos-sociales.png);
+	background-repeat: no-repeat;
+}
+
+footer div #facebook
+{
+	background-position: 11px 5px;
+}
+
+footer div #facebook:hover
+{
+	background-position: 11px -28px;
+}
+
+
+.columna_centro {
+    position: relative;
+	display: block;
+    margin: auto;
+	width: 80%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.contenedor_imagenes {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
